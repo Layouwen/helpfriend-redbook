@@ -4,9 +4,12 @@
 }
 
 .line {
-  width: 2px;
-  height: 100%;
-  background: red;
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  margin: 0 16px;
+  background: #ccc;
+  vertical-align: middle;
 }
 
 .main {
@@ -193,4 +196,30 @@
 
 .main > .block1 > .img > img {
   width: 386px;
+}
+
+.info {
+  margin-top: 60px;
+  background: #f7f8fb;
+}
+
+.info > h4 {
+  text-align: center;
+}
+
+.info > div {
+  text-align: center;
+}
+
+.footer {
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  background: #f7f8fb;
+}
+
+.footer > .bottom {
+  margin-top: 10px;
 }
